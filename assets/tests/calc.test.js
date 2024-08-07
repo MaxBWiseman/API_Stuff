@@ -17,4 +17,7 @@ describe('addition', () => {
     test('adds 5 + 9 to equal 14', () => {
         expect(addition(5, 9)).toBe(14);
     });
+    test('throws an error if a string is passed', () => {
+        expect(() => addition('a', 2)).toThrow('Error: Both arguments must be numbers');
+    });
 }); 
