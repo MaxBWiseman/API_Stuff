@@ -106,3 +106,6 @@ function displayException(data) {
         document.getElementById("results-content").innerHTML = results;
         resultsModal.show();
 }
+
+// all this code is an example how to get API to display in a model on you webpage
+// this example does javascript error checking
